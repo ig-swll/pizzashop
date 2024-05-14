@@ -1,9 +1,9 @@
-import "./global.css";
+import './global.css';
 
 export function App() {
   return (
     <>
-      <div className="flex justify-center items-center h-dvh">
+      <div className="flex h-dvh items-center justify-center">
         <h1>hello world</h1>
       </div>
     </>

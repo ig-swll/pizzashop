@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "simple-import-sort"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "@rocketseat/eslint-config/react",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "prettier/prettier": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  }
+}
