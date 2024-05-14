@@ -28,14 +28,14 @@ export function SignIn() {
     try {
       console.log(data);
       await new Promise((resolve) => setTimeout(resolve, 2000));
-      toast.success('Enviamos um link de autenticação para seu e-mail.', {
+      toast.success('Enviamos um link de autenticação para seu e-mail.');
+    } catch {
+      toast.error('Credenciais inválidas', {
         action: {
           label: 'Tentar novamente',
           onClick: () => {},
         },
       });
-    } catch {
-      toast.error('Credenciais inválidas');
     }
   };
 
